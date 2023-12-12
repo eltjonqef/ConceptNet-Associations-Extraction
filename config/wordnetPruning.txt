@@ -1,0 +1,15 @@
+abstraction
+physical_entity
+thing
+attribute
+group
+measure
+set
+casual_agent
+matter
+object
+process
+change
+otherworld
+substance
+communication

@@ -1,0 +1,5 @@
+v
+v/wn/motion
+v/wn/contact
+v/wn/change
+n/wn/act

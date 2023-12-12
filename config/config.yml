@@ -1,0 +1,20 @@
+LABELS: labels.xlsx
+MAX_HOP: 3
+conceptNet:
+  EDGE_WEIGHT_THRESHOLD: 0.8
+  OUTPUT_FOLDER: triplets
+  RELATIONS_FILE: relations.txt
+  TYPE_PRUNING_RELATIONS_FILE: typePruningRelations.txt
+  WORNDET_PRUNING_FILE: wordnetPruning.txt
+  ACTION_TYPES_FILE: action_types.txt
+  OBJECT_TYPES_FILE: object_types.txt
+  STATE_TYPES_FILE: state_types.txt
+neo4j:
+  ROOT_DIRECTORY: file:///triplets
+  OUTPUT_FOLDER: measurements
+  # URI: bolt://139.91.183.85:7687/cnetsubgraphsdb
+  URI: neo4j://localhost:7687
+  USERNAME: username
+  PASSWORD: password
+  # DATABASE: cnetsubgraphsdb
+  DATABASE: neo4j

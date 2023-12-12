@@ -1,0 +1,4 @@
+antonym
+synonym
+manner_of
+is_a
